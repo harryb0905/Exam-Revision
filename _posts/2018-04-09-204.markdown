@@ -1,0 +1,16 @@
+---
+layout: default
+title:  "SCC.204"
+date:   2018-04-08 18:00:00
+categories: main
+---
+
+Questions for the SCC.204 Software Design module.
+
+<ul class="posts">
+    {% for question in site.questions %}
+	    <li class="post-summary">
+		  	<p class="question-content">{{ question.content }}</p>
+	    </li>
+    {% endfor %}
+ </ul>

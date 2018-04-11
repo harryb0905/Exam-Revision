@@ -1,0 +1,21 @@
+# Setup
+title:        Revision
+tagline:      Lancaster University Exam Revision Questions + Answers
+baseurl:      "/Exam-Revision"
+paginate:     1
+locale:       "en"
+
+collections:
+  questions:
+    output: true
+
+# About/contact
+author:
+  name:       Harry Baines
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
