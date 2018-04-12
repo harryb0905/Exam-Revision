@@ -196,16 +196,18 @@ a:hover { text-decoration: underline; }
 	list-style-type: none;
 }
 .post-summary {
-	padding: 20px 10px 40px 10px;
+	font-size: 125%;
+	list-style-type: none;
+	padding: 0;
+	padding: 25px 15px 25px 15px;
 	text-align: center;
 	background-color: white;
-	text-align: center;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-	margin-bottom: 50px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	margin-bottom: 30px;
 	position: relative;
 }
 .post-title {
-	font-size: 250%;
+	font-size: 150%;
 	display: block;
 	text-align: center;
 }
@@ -225,13 +227,13 @@ ul {
 	padding: 25px 15px 0px 15px;
 	text-align: center;
 	background-color: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
 	margin-bottom: 30px;
 	position: relative;
 }
 .question {
 	text-align: center;
-	font-size: 200%;
+	font-size: 175%;
 	font-weight: bold;
 }
 .answer {
