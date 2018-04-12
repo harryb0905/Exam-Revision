@@ -1,0 +1,4 @@
+- module: SCC.211
+  topic: Concurrency
+  question: What is a lock?
+  answer: Something that locks something.

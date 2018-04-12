@@ -223,7 +223,7 @@ a:hover { text-decoration: underline; }
 	text-align: center;
 	background-color: white;
 	text-align: center;
-    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
 	margin-bottom: 50px;
 	position: relative;
 }
@@ -244,63 +244,49 @@ a:hover { text-decoration: underline; }
 }
 
 
-.card-container {
-  cursor: pointer;
-  height: 400px;
-  width: 400px;
-  perspective: 800px;
-  position: relative;
-  margin: auto;
-  transition: ease-in;
-}
-
-.cardRow {
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
   margin: 0 auto;
-  margin-top: 25px;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
 }
 
-.card {
-  height: 400px;
-  width: 400px;
-  position: absolute;
-  border: 1px solid #300;
+.flip-container, .front, .back {
+  width: 320px;
+  height: 150px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
   transform-style: preserve-3d;
-  transition: all 0.4s ease-in-out;
+
+  position: relative;
 }
 
-.card:hover {
-  transform: rotateY(180deg);
-  transition: all 0.4s ease-in-out;
-}
-
-.card .front {
-  height: 400px;
-  width: 400px;
+/* hide back of pane during swap */
+.front, .back {
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+
   position: absolute;
-  overflow: hidden;
-  text-align: center;
-  background-color: rgba(255, 251, 251, 1);
+  top: 0;
+  left: 0;
 }
 
-.card .back {
-  height: 400px;
-  width: 400px;
-  text-align: center;
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
   transform: rotateY(180deg);
-}
-
-.question {
-  color: #333;
-  font-size: 2.3em;
-  padding-top: 40%;
-}
-
-.answer {
-  color: #333;
-  font-size: 16px;
-  font-size: 2vw;
-  padding-top: 20%;
 }
 
 

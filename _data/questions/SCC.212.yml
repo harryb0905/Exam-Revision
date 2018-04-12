@@ -1,0 +1,4 @@
+- module: SCC.212
+  topic: Java
+  question: What is meant by the term immutability?
+  answer: Can't be changed after it's been assigned a value.

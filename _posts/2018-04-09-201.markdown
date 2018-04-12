@@ -5,13 +5,3 @@ date:   2018-04-08 18:00:00
 category: main
 tags: SCC.201
 ---
-
-
-<!-- <ul class="posts">
-	{% assign grouped_topics = site.data.questions | group_by: "topic" %}
-    {% for g in grouped_topics %}
-	    <li class="post-summary">
-	    	<a class="topic-link" href="{{ site.baseurl }}{{ topic.url }}">{{ g.items[0].topic }}</a>
-	    </li>
-    {% endfor %}
-</ul> -->
