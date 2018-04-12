@@ -20,6 +20,8 @@
 
 > git merge upstream/master
 
+> git push origin master
+
 ##### Push changes
 > git add -A
 
