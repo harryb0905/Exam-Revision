@@ -17,11 +17,14 @@
 
 ##### Pull changes
 > git fetch upstream
+
 > git merge upstream/master
 
 ##### Push changes
 > git add -A
+
 > git commit -m "Added new topic and new questions"
+
 > git push origin master
 
 #### GitHub pull request
