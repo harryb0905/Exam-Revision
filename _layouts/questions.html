@@ -8,18 +8,18 @@ layout: page
 
     {% for q in site.data.questions[filename] %}
         {% if q.module == page.tags[0] and q.topic == page.tags[1] %}
-        <li class="questions-list">
-            <div class="flip-container">
-                <div class="flipper">
-                  <div class="front">
-                      <p class="question">{{ q.question }}</p>
-                  </div>
-                  <div class="back">
-                    <p class="answer">{{ q.answer }}</p>
-                  </div>
+            <li class="questions-list">
+                <div class="flip-container">
+                    <div class="flipper">
+                      <div class="front">
+                          <p class="question">{{ q.question }}</p>
+                      </div>
+                      <div class="back">
+                        <p class="answer">{{ q.answer }}</p>
+                      </div>
+                    </div>
                 </div>
-            </div>
-        </li>
+            </li>
         {% endif %}
     {% endfor %}
 </ul>
