@@ -1,18 +1,7 @@
 ---
-layout: default
+layout: topic
 title:  "SCC.202"
 date:   2018-04-08 18:00:00
-category: 202
+category: main
+tags: SCC.202
 ---
-
-Questions for the SCC.202 HCI module.
-
-<ul class="posts">
-    {% for question in site.questions %}
-    	{% if question.category == page.category %}
-		    <li class="post-summary">
-			  	<p class="question-content">{{ question.content }}</p>
-		    </li>
-		{% endif %}
-    {% endfor %}
- </ul>

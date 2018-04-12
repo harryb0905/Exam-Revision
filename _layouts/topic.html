@@ -1,0 +1,13 @@
+---
+layout: page
+---
+<p>Topics for the {{page.title}} module:</p>
+<ul class="posts">
+	{% for topic in site.topics %}
+		{% if topic.tags[0] == page.tags[0] %}
+	    <li class="post-summary">
+	    	<a class="post-title" href="{{ site.baseurl }}{{ topic.url }}">{{ topic.title }}</a>
+	    </li>
+	    {% endif %}
+    {% endfor %}
+</ul>

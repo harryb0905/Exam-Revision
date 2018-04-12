@@ -1,16 +1,7 @@
 ---
-layout: default
+layout: topic
 title:  "SCC.211"
 date:   2018-04-08 18:00:00
-categories: main
+category: main
+tags: SCC.211
 ---
-
-Questions for the SCC.211 Operating Systems module.
-
-<ul class="posts">
-    {% for question in site.questions %}
-	    <li class="post-summary">
-		  	<p class="question-content">{{ question.content }}</p>
-	    </li>
-    {% endfor %}
- </ul>

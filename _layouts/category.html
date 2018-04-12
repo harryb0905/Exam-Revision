@@ -1,0 +1,17 @@
+---
+layout: page
+---
+<p>Practice questions for {{page.title}}.</p>
+<ul class="posts">
+	{% for tag in page.tags %}
+		{% for q in site.data.questions %}
+	    	{% if q.module contains tag %}
+			    <li class="post-summary">
+			    	<p class="category-text">Topic: {{ q.topic }}</p>
+			    	<p class="question">{{ q.question }}</p>
+				  	<p class="answer">{{ q.answer }}</p>
+			    </li>
+			{% endif %}
+		{% endfor %}
+    {% endfor %}
+</ul>
