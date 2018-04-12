@@ -1,4 +1,25 @@
+# 1. Intro to HCI
 - module: SCC202
   topic: Intro to HCI
-  question: Draw the diagram.
-  answer: Ok.
+  question: Describe what HCI is involved with.
+  answer: Discipline concerned with the design, evaluation and implementation of interactive computing systems for human use and the study of major phenomena surrounding them.
+
+- module: SCC202
+  topic: Intro to HCI
+  question: State the different parts of the user interface.
+  answer: Conceptual design (tasks, objects), visual design (graphics, layout, navigation), input and interaction (models, techniques)
+
+- module: SCC202
+  topic: Intro to HCI
+  question: Define what is meant by the term user experience.
+  answer: Total experience of an interactive solution, understanding at deep level what users need, designing solutions not just usable but satisfying and pleasing
+
+- module: SCC202
+  topic: Intro to HCI
+  question: Define the 3 economic views involved in HCI.
+  answer: Business view = use humans more productively and effectively (human costs outweigh hardware/software costs<br><br>Personal view = people view computers as appliances and what them to perform like appliances<br><br>Marketplace view = everyone uses computers and expect them to be easy to use, not tolerant of poorly designed systems
+
+- module: SCC202
+  topic: Intro to HCI
+  question: Define the 3 economic views involved in HCI.
+  answer: Business view = use humans more productively and effectively (human costs outweigh hardware/software costs<br><br>Personal view = people view computers as appliances and what them to perform like appliances<br><br>Marketplace view = everyone uses computers and expect them to be easy to use, not tolerant of poorly designed systems

@@ -260,7 +260,6 @@ ul {
 
 .flip-container, .front, .back {
   height: 200px;
-  line-height: 200px; /* <-- this is what you must define */
   text-align: center;
 }
 
