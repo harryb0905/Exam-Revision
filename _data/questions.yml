@@ -18,6 +18,11 @@
   question: What does SQL stand for?
   answer: Structured Query Language
 
+- module: SCC.201
+  topic: Relational Model
+  question: Define Relational Model?
+  answer: An attempt to describe data by its natural structure only.
+
 - module: SCC.202
   topic: Intro to HCI
   question: Draw the diagram.
