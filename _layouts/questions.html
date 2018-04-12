@@ -7,16 +7,24 @@ layout: page
     {% capture filename %}{{module}}{% endcapture %}
 
     {% for q in site.data.questions[filename] %}
-        {% if q.module == page.tags[0] and q.topic == page.tags[1] %}
+        {% if q.module == filename and q.topic == page.tags[1] %}
             <li class="questions-list">
                 <div class="flip-container">
                     <div class="flipper">
                       <div class="front">
                           <p class="question">{{ q.question }}</p>
                       </div>
+                      {% assign answer = q.answer %}
+                      {% if answer contains ".png" %}
+                      <!-- <div class="back">
+                        {% capture path %}{{ data.images.use-case-diagram | asset_path }}{% endcapture %}
+                        <img src="{{ path }}" class="img-responsive"></img>
+                      </div>   -->  
+                      {% else %}
                       <div class="back">
                         <p class="answer">{{ q.answer }}</p>
                       </div>
+                      {% endif %}
                     </div>
                 </div>
             </li>

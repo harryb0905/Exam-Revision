@@ -1,4 +1,4 @@
-- module: SCC.203
+- module: SCC203
   topic: Delay Loss and Throughput
   question: Define delay.
   answer: A measure of the time to taken for a packet to travel across the network.

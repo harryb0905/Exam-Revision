@@ -1,4 +1,9 @@
-- module: SCC.204
+- module: SCC204
   topic: Use Cases
   question: What is the 1NF?
   answer: A use case is a behavioural model of a system.
+
+- module: SCC204
+  topic: Use Cases
+  question: Draw a Use Case diagram.
+  answer: use-case-diagram

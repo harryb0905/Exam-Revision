@@ -10,7 +10,7 @@
 
 * Add a new question:
 	1. Go to _data, open questions.yml
-	2. Copy and paste 4 existing lines, change module, topic, question and answer
+	2. Copy and paste 3 existing lines, change topic, question and answer
 	3. Save it
 
 ### Go to cmd
