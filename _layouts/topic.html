@@ -3,10 +3,11 @@ layout: page
 ---
 <p>Topics for the {{page.title}} module:</p>
 <ul class="posts">
-	{% for topic in site.topics %}
+	{% assign sorted-topics = site.topics | sort: 'number' %}
+	{% for topic in sorted-topics %}
 		{% if topic.tags[0] == page.tags[0] %}
 	    <li class="post-summary">
-	    	<a class="post-title" href="{{ site.baseurl }}{{ topic.url }}">{{ topic.title }}</a>
+	    	<a class="post-title" href="{{ site.baseurl }}{{ topic.url }}">{{topic.number}}. {{ topic.title }}</a>
 	    </li>
 	    {% endif %}
     {% endfor %}

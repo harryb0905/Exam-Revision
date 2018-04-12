@@ -5,7 +5,7 @@
 * Add a new topic:
 	1. Go to _topics, go to correct module folder
 	2. Copy+Paste existing file, rename to name of new topic
-	3. Set the title and the second tag to the name of the file (first tag is module - double check it!)
+	3. Set the number to 1 more than the most recent highest topic number, title name, and the second tag to the name of the file (first tag is module - double check it!)
 	4. Save it
 
 * Add a new question:
