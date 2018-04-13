@@ -2,7 +2,7 @@
 - module: SCC201
   topic: Why Databases
   question: What are the two problems of using a relational file?
-  answer: 1) Limits on field lengths. 2) Expense of setting up and maintaining the database. More costs for a bigger organisation as got to have high security for sensitive data.
+  answer: 1) Limits on field lengths. <br> 2) Expense of setting up and maintaining the database. More costs for a bigger organisation as got to have high security for sensitive data.
 
 - module: SCC201
   topic: Why Databases
@@ -22,7 +22,7 @@
 - module: SCC201
   topic: Why Databases
   question: When not to use DBMS?
-  answer: 1) Database are simple and not expected to change. >br> 2) Stringent real-time requirements for some programs = DBMS overhead costs. <br> 3) Multiple-user access to data is not required.
+  answer: 1) Database are simple and not expected to change. <br> 2) Stringent real-time requirements for some programs = DBMS overhead costs. <br> 3) Multiple-user access to data is not required.
 
 - module: SCC201
   topic: Why Databases
