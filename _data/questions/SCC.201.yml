@@ -1,3 +1,4 @@
+# 1. Why databases
 - module: SCC201
   topic: Why Databases
   question: What are the two problems of using a relational file?
@@ -6,13 +7,65 @@
 - module: SCC201
   topic: Why Databases
   question: What are the problems of having multiple files?
-  answer: 1) More files to maintain. 2) Performance penalty accessing multiple files. 3) Danger of data duplication. 4) adding/deleting records is a problem but not reading.
+  answer: 1) More files to maintain. <br> 2) Performance penalty accessing multiple files. <br> 3) Danger of data duplication. <br> 4) Adding/deleting records is a problem but not reading.
 
 - module: SCC201
   topic: Why Databases
   question: What are the 3 things to abstract from the application software?
   answer: Data structure, data values, data access.
 
+- module: SCC201
+  topic: Why Databases
+  question: What are the two views of DBMS and give some explanation?
+  answer: Logical view - as presented to applications. <br> Physical layout on backing store, manipulated by DBMS.
+
+- module: SCC201
+  topic: Why Databases
+  question: When not to use DBMS?
+  answer: 1) Database are simple and not expected to change. >br> 2) Stringent real-time requirements for some programs = DBMS overhead costs. <br> 3) Multiple-user access to data is not required.
+
+- module: SCC201
+  topic: Why Databases
+  question: What are the three actors (back-end) in Database System Environment?
+  answer: Database Administrator, Database Designers and Software Engineers.
+
+# 1. Relational Model
+- module: SCC201
+  topic: Relational Model
+  question: Define Relational Model?
+  answer: An attempt to describe data by its natural structure only.
+
+- module: SCC201
+  topic: Relational Model
+  question: What is atomic?
+  answer: Each value in domain is indivisable as far as relational model is concerned.
+
+- module: SCC201
+  topic: Relational Model
+  question: What is a Degree and give an example?
+  answer: The degree of a relation is the number of attributes n of its relation schema. <br> A relation schema for a relation of degree 4 (describing university students is LITTLE STUDENT (Name, Age, RegNum, Major)
+
+- module: SCC201
+  topic: Relational Model
+  question: What is a superkey?
+  answer: Subset of attributes is called a superkey. <br> All tuples in a relation are distinct - no tuples can have same combination. 
+
+- module: SCC201
+  topic: Relational Model
+  question: Define Cadidate Key?
+  answer: If a relation schema has more than one key, each of the keys is called a canddate key.
+
+- module: SCC201
+  topic: Relational Model
+  question: Define Primary Key?
+  answer: a candidate key whose vlaues are used to identify tuples in a relation.
+
+- module: SCC201
+  topic: Relational Model
+  question: Define Foreign Key?
+  answer: A tuple in one relation refers to a tuple in another relation.
+
+# 1. Normalisation
 - module: SCC201
   topic: Normalisation
   question: What is the 1NF?
@@ -28,12 +81,8 @@
   question: What is the 3NF?
   answer: A relation is in first normal form if and only if the domain of each attribute contains only atomic (indivisible) values, and the value of each attribute contains only a single value from that domain.
 
+# 1. SQL
 - module: SCC201
   topic: SQL
   question: What does SQL stand for?
   answer: Structured Query Language
-
-- module: SCC201
-  topic: Relational Model
-  question: Define Relational Model?
-  answer: An attempt to describe data by its natural structure only.
