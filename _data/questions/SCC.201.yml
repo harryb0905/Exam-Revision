@@ -14,11 +14,6 @@
   answer: Data structure, data values, data access.
 
 - module: SCC201
-  topic: Why databases?
-  question: 
-  answer: 
-
-- module: SCC201
   topic: Normalisation
   question: What is the 1NF?
   answer: A relation is in first normal form if and only if the domain of each attribute contains only atomic (indivisible) values, and the value of each attribute contains only a single value from that domain.
