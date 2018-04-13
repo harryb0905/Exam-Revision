@@ -1,4 +1,24 @@
 - module: SCC201
+  topic: Why databases?
+  question: What are the two problems of using a relational file?
+  answer: 1) Limits on field lengths. 2) Expense of setting up and maintaining the database. More costs for a bigger organisation as got to have high security for sensitive data.
+
+- module: SCC201
+  topic: Why databases?
+  question: What are the problems of having multiple files?
+  answer: 1) More files to maintain. 2) Performance penalty accessing multiple files. 3) Danger of data duplication. 4) adding/deleting records is a problem but not reading.
+
+- module: SCC201
+  topic: Why databases?
+  question: What are the 3 things to abstract from the application software?
+  answer: Data structure, data values, data access.
+
+- module: SCC201
+  topic: Why databases?
+  question: 
+  answer: 
+
+- module: SCC201
   topic: Normalisation
   question: What is the 1NF?
   answer: A relation is in first normal form if and only if the domain of each attribute contains only atomic (indivisible) values, and the value of each attribute contains only a single value from that domain.
