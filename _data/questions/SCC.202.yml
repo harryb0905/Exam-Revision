@@ -7,7 +7,7 @@
 - module: SCC202
   topic: Intro to HCI
   question: State the different parts of the user interface.
-  answer: Conceptual design (tasks, objects), visual design (graphics, layout, navigation), input and interaction (models, techniques)
+  answer: Conceptual design (tasks, objects)<br>Visual design (graphics, layout, navigation)<br>Input and interaction (models, techniques)
 
 - module: SCC202
   topic: Intro to HCI
@@ -19,7 +19,46 @@
   question: Define the 3 economic views involved in HCI.
   answer: Business view = use humans more productively and effectively (human costs outweigh hardware/software costs<br><br>Personal view = people view computers as appliances and what them to perform like appliances<br><br>Marketplace view = everyone uses computers and expect them to be easy to use, not tolerant of poorly designed systems
 
+# 2. HCI and Design Thinking
 - module: SCC202
-  topic: Intro to HCI
-  question: Define the 3 economic views involved in HCI.
-  answer: Business view = use humans more productively and effectively (human costs outweigh hardware/software costs<br><br>Personal view = people view computers as appliances and what them to perform like appliances<br><br>Marketplace view = everyone uses computers and expect them to be easy to use, not tolerant of poorly designed systems
+  topic: HCI and Design Thinking
+  question: Explain what is meant by the term 'Design Thinking' in the context of HCI.
+  answer: Process for solving problems in creative and innovative way.
+
+- module: SCC202
+  topic: HCI and Design Thinking
+  question: What is a designer's toolkit in the context of HCI?
+  answer: Techniques that help understand users and problems, and find new ways of addressing them.
+
+- module: SCC202
+  topic: HCI and Design Thinking
+  question: State the 5 steps involved in the Design Thinking Process.
+  answer: Empathise<br>Define<br>Ideate<br>Prototype<br>Test
+
+- module: SCC202
+  topic: HCI and Design Thinking
+  question: Explain the Empathise step in the Design Thinking Process.
+  answer: Understanding the way users do things and why, their physical and emotional needs and how they think about the world.<br><br>Understanding the problem more deeply, talking to people, how they think about something etc.
+
+- module: SCC202
+  topic: HCI and Design Thinking
+  question: Explain the Define step in the Design Thinking Process.
+  answer: Craft an actionable problem statement - your "point of view" of the user, what they need and why.
+
+- module: SCC202
+  topic: HCI and Design Thinking
+  question: Explain the Ideate step in the Design Thinking Process.
+  answer: Explore innovative and alternative solutions in preparation for prototyping.
+
+- module: SCC202
+  topic: HCI and Design Thinking
+  question: Explain the Prototype step in the Design Thinking Process.
+  answer: Generate artefacts intended to help you answer questions to bring you closer to a final solution (starts with 'quick and dirty' then progresses to high-fidelity).
+
+- module: SCC202
+  topic: HCI and Design Thinking
+  question: Explain the Test step in the Design Thinking Process.
+  answer: Solicit (ask for/try to obtain) feedback on prototypes created (leads to deeper understanding of the user and their needs).
+
+
+
