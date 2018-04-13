@@ -9,7 +9,7 @@ layout: page
     {% for q in site.data.questions[filename] %}
         {% if q.module == filename and q.topic == page.tags[1] %}
             <li class="questions-list">
-                <div class="flip-container" id="flip">
+                <div class="flip-container" id="flip" ontouchstart="">
                     <div class="flipper" id="flipper-container">
                       <div class="front">
                           <p class="question">{{ q.question }}</p>
