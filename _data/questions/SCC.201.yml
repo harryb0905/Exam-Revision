@@ -29,7 +29,7 @@
   question: What are the three actors (back-end) in Database System Environment?
   answer: Database Administrator, Database Designers and Software Engineers.
 
-# 1. Relational Model
+# 2. Relational Model
 - module: SCC201
   topic: Relational Model
   question: Define Relational Model?
@@ -53,7 +53,7 @@
 - module: SCC201
   topic: Relational Model
   question: Define Cadidate Key?
-  answer: If a relation schema has more than one key, each of the keys is called a canddate key.
+  answer: If a relation schema has more than one key, each of the keys is called a candidate key.
 
 - module: SCC201
   topic: Relational Model
@@ -65,7 +65,23 @@
   question: Define Foreign Key?
   answer: A tuple in one relation refers to a tuple in another relation.
 
-# 1. Normalisation
+# 3. Relational Algebra
+- module: SCC201
+  topic: Relational Algebra
+  question: What is the purpose of Relational Algebra?
+  answer: Language to describe operations in relational DBMS (helps understanding Query execution and optimisation).
+
+- module: SCC201
+  topic: Relational Algebra
+  question: (Insert Question)
+  answer: (insert answer)
+
+- module: SCC201
+  topic: Relational Algebra
+  question: (insert question)
+  answer: (insert answer)
+
+# 7. Normalisation
 - module: SCC201
   topic: Normalisation
   question: What is the 1NF?
