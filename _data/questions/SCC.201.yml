@@ -1,33 +1,140 @@
 # 1. Why databases
 - module: SCC201
   topic: Why Databases
-  question: What are the two problems of using a relational file?
-  answer: 1) Limits on field lengths. <br> 2) Expense of setting up and maintaining the database. More costs for a bigger organisation as got to have high security for sensitive data.
+  question: What is meant by a relational file?
+  answer: A relational file contains a number of records. Each record has a defined set of attributes.
 
 - module: SCC201
   topic: Why Databases
-  question: What are the problems of having multiple files?
-  answer: 1) More files to maintain. <br> 2) Performance penalty accessing multiple files. <br> 3) Danger of data duplication. <br> 4) Adding/deleting records is a problem but not reading.
+  question: What are the two problems of using a relational file?
+  answer: 1) Limit on field lengths. <br> 2) Expense of setting up and maintaining the database. More costs for a bigger organisation as high security for sensitive data is required.
+
+- module: SCC201
+  topic: Why Databases
+  question: What are the problems of having multiple traditional files?
+  answer: 1) More files to maintain. <br> 2) Performance penalty accessing multiple files. <br> 3) Danger of data duplication. <br> 4) Adding/deleting records.
 
 - module: SCC201
   topic: Why Databases
   question: What are the 3 things to abstract from the application software?
-  answer: Data structure, data values, data access.
+  answer: 1) Data structure. <br> 2) Data values. <br> 3) Data access.
+
+- module: SCC201
+  topic: Why Databases
+  question: Explain what is meant by data independence.
+  answer: Data independence is the idea that generated and stored data should be kept separate from apps that use the data.
+
+- module: SCC201
+  topic: Why Databases
+  question: Briefly describe the components involved in a DBMS.
+  answer: 1) App program = send queries, receive results through logical interface. <br><br> 2) DBMS = contains data access software (code to process queries and handle data access), communicates with database. <br><br> 3) Database = physical data on backing store (contains data and data definition metadata).
 
 - module: SCC201
   topic: Why Databases
   question: What are the two views of DBMS and give some explanation?
-  answer: Logical view - as presented to applications. <br> Physical layout on backing store, manipulated by DBMS.
+  answer: 1) Logical view = presented to applications. <br> 2) Physical layout = on backing store, manipulated by DBMS.
+
+- module: SCC201
+  topic: Why Databases
+  question: What is the purpose of the logical level in a DBMS?
+  answer: Can access info without affecting existing apps (allows apps to define subset of logical view they wish to see).
+
+- module: SCC201
+  topic: Why Databases
+  question: Explain the purpose of data independence.
+  answer: Can organise both contents and structure of the data (provided logical view presented to app programmer and end-user remains consistent).
+
+- module: SCC201
+  topic: Why Databases
+  question: Briefly explain why databases are perceived to be better than traditional files.
+  answer: 1) Data independence. <br> 2) Clever access methods/physical methods help speed up access times.
+
+- module: SCC201
+  topic: Why Databases
+  question: How does a database provide data independence?
+  answer: Through data abstraction. Doesn't include details of how data is stored, hides storage and implementation details of no interest to most users.
+
+- module: SCC201
+  topic: Why Databases
+  question: What is stored in a system catalogue?
+  answer: 1) Data definitions. <br> 2) Storage structure of data items. <br> 3) Constraints.
+
+- module: SCC201
+  topic: Why Databases
+  question: Describe the problems associated with traditional file processing.
+  answer: Users may define and implement files needed for each specific app. Separate files need to be maintained (and programs to manipulate them). Wasted storage, redundant effort to keep common data consistent.
+
+- module: SCC201
+  topic: Why Databases
+  question: What is meant by a view?
+  answer: A view contains only what each app wants to see and only what it needs to see, keeping rest hidden (security). May be virtual (not stored) so no wasted space and no redundant effort maintaining common data.
+
+- module: SCC201
+  topic: Why Databases
+  question: Explain the following terms; Entity, Attributes, Relationships.
+  answer: Entity = specific object, real or abstract about which we need to store attributes and relationships. <br><br> Attributes = properties describing an entity. <br><br> Relationships = associations among entites.
+
+- module: SCC201
+  topic: Why Databases
+  question: What is a record?
+  answer: A collection of related data values, which describe an entity and its attributes.
+
+- module: SCC201
+  topic: Why Databases
+  question: What is a record type? Give an example.
+  answer: A collection of field names and their corresponding data types. <br><br> Person - String name, Int age, String NI_Number. <br> Person record = instance of person.
+
+- module: SCC201
+  topic: Why Databases
+  question: What is a schema?
+  answer: A schema allows a user to declare types of records required (e.g. Person) and types of relationships among records. <br><br> A roadmap for data eventually stored (metadata = info about data).
+
+- module: SCC201
+  topic: Why Databases
+  question: What are the overhead costs of a DBMS?
+  answer: 1) High initial investment in; hardware, software, training. <br> 2) General approach for defining and processing data. <br> 3) Providing security, concurrency control, recovery and integrity functions.
 
 - module: SCC201
   topic: Why Databases
   question: When not to use DBMS?
-  answer: 1) Database are simple and not expected to change. <br> 2) Stringent real-time requirements for some programs = DBMS overhead costs. <br> 3) Multiple-user access to data is not required.
+  answer: 1) Database is simple and not expected to change. <br> 2) Stringent real-time requirements for some programs = DBMS overhead costs. <br> 3) Multiple-user access to data is not required.
 
 - module: SCC201
   topic: Why Databases
-  question: What are the three actors (back-end) in Database System Environment?
-  answer: Database Administrator, Database Designers and Software Engineers.
+  question: What are the actors involved in a Database System Environment?
+  answer: 1) Database Administrator. <br> 2) Database Designers. <br> 3) Software Engineers. <br> 4) End Users.
+
+- module: SCC201
+  topic: Why Databases
+  question: Briefly explain what a database is.
+  answer: A database represents some aspect of a real/mini world, logically coherent collection of data with some inherent meaning.
+
+- module: SCC201
+  topic: Why Databases
+  question: Who is a database admin?
+  answer: A database admin authorises access to a database, coordinates and monitors its use, and acquires software and hardware resources as required.
+
+- module: SCC201
+  topic: Why Databases
+  question: Who is a database designer?
+  answer: A database designer identifies data to be stored in the database, and chooses appropriate structures and constraints to represent and store data.
+
+- module: SCC201
+  topic: Why Databases
+  question: What does a software engineer do in the context of databases?
+  answer: A software engineer identifies end user requirements and implements, tests, debugs and maintains.
+
+- module: SCC201
+  topic: Why Databases
+  question: What is a canned transaction?
+  answer: A canned transaction is a standard type of query/update, with carefully programmed data validity checking.
+
+- module: SCC201
+  topic: Why Databases
+  question: Describe the types of end users involved in a database environment.
+  answer: 1) Casual end users = occassionally access database but need different info each time, use sophisticated query language. <br><br> 2) Naive/parametric users = make up sizeable portion of users, use canned transactions. <br><br> 3) Sophisticated end users = implement own apps, e.g. engineers. <br><br> 4) Stand-alone end users = maintain personal databases using off-the-shelf systems.
+
+
 
 # 2. Relational Model
 - module: SCC201
@@ -96,9 +203,3 @@
   topic: Normalisation
   question: What is the 3NF?
   answer: A relation is in first normal form if and only if the domain of each attribute contains only atomic (indivisible) values, and the value of each attribute contains only a single value from that domain.
-
-# 1. SQL
-- module: SCC201
-  topic: SQL
-  question: What does SQL stand for?
-  answer: Structured Query Language
