@@ -7,7 +7,7 @@
 - module: SCC202
   topic: Intro to HCI
   question: State the different parts of the user interface.
-  answer: Conceptual design (tasks, objects)<br>Visual design (graphics, layout, navigation)<br>Input and interaction (models, techniques)
+  answer: 1) Conceptual design (tasks, objects). <br> 2) Visual design (graphics, layout, navigation). <br> 3) Input and interaction (models, techniques).
 
 - module: SCC202
   topic: Intro to HCI
@@ -18,6 +18,16 @@
   topic: Intro to HCI
   question: Define the 3 economic views involved in HCI.
   answer: Business view = use humans more productively and effectively (human costs outweigh hardware/software costs<br><br>Personal view = people view computers as appliances and what them to perform like appliances<br><br>Marketplace view = everyone uses computers and expect them to be easy to use, not tolerant of poorly designed systems
+
+- module: SCC202
+  topic: Intro to HCI
+  question: Define the 3 system views involved in HCI.
+  answer: 1) Complex view - Human, computer, and interface between the two. <br> 2) Human factor view - humans have necessary limitations. Errors are costly - loss of time, money, morale and o  Loss of lives in critical systems.
+
+- module: SCC202
+  topic: Intro to HCI
+  question: Define the 3 social views involved in HCI.
+  answer: 1) Education/Medical/Financial/Entertainment. <br> 2) Control air and ground traffic flow. <br> 3) Control chemical/oil/nuclear plants.
 
 # 2. HCI and Design Thinking
 - module: SCC202
@@ -38,12 +48,12 @@
 - module: SCC202
   topic: HCI and Design Thinking
   question: Explain the Empathise step in the Design Thinking Process.
-  answer: Understanding the way users do things and why, their physical and emotional needs and how they think about the world.<br><br>Understanding the problem more deeply, talking to people, how they think about something etc.
+  answer: Understanding the way users do things and why, their physical and emotional needs and how they think about the world.<br><br>Understanding problem deeply by talking to people. Physical and emotional needs
 
 - module: SCC202
   topic: HCI and Design Thinking
   question: Explain the Define step in the Design Thinking Process.
-  answer: Craft an actionable problem statement - your "point of view" of the user, what they need and why.
+  answer: framing the right problem us only way to create right solution. <br> Craft an actionable problem statement - your "point of view" of the user, what they need and why.
 
 - module: SCC202
   topic: HCI and Design Thinking
@@ -60,5 +70,59 @@
   question: Explain the Test step in the Design Thinking Process.
   answer: Solicit (ask for/try to obtain) feedback on prototypes created (leads to deeper understanding of the user and their needs).
 
+# 3. User-Centered Design and Need-Finding Techniques
+- module: SCC202
+  topic: User-Centered Design and Need-Finding Techniques
+  question: What is UCD?
+  answer: It is an iterative methodology that puts the user at the centre of all design decisions.
 
+- module: SCC202
+  topic: User-Centered Design and Need-Finding Techniques
+  question: What's the goal of UCD?
+  answer: To optimize a user's experience of a system, product or process.
 
+- module: SCC202
+  topic: User-Centered Design and Need-Finding Techniques
+  question: The gold rule is to know your user, name some uer perspectives during development lifecycle. 
+  answer: 1) Abilities, real needs and 'wants'. <br> 2) Goals motivations and triggers. <br> 3) Context of use.
+
+- module: SCC202
+  topic: User-Centered Design and Need-Finding Techniques
+  question: Name three economic benefits and three social benefits of UCD.
+  answer: Economic <br> 1) Decreased development costs. 2) Increased revenue from sales. <br> 3) Reduced training from sales, training costs. <br> Social <br> 1) Increased adoption rates by user. <br> 2) Improved user productivity. <br> 3) Higher quality user experience.
+
+- module: SCC202
+  topic: User-Centered Design and Need-Finding Techniques
+  question: Name three disadvantages of UCD.
+  answer: 1) Users may be wrong. <br> 2) Users may be resistant to change. <br> 3) users may expect disadvantages such as computers taking control.
+
+- module: SCC202
+  topic: User-Centered Design and Need-Finding Techniques
+  question:  Give three techniques of need-finding.
+  answer: Participant observation, interviews and camera observation.
+
+- module: SCC202
+  topic: User-Centered Design and Need-Finding Techniques
+  question: What is the goal of participant observation and why?
+  answer: To understand the user's needs, goals, values. <br> Why - helps to build empathy and think from their point-of-view.
+
+- module: SCC202
+  topic: User-Centered Design and Need-Finding Techniques
+  question: Name three disadvantages of Participant Observation.
+  answer: 1) Time consuming. <br> 2) Difficulty in documenting data. <br> 3) Inherently subjective.
+
+# 4. Need-Finding and Requirements
+- module: SCC202
+  topic: Need-Finding and Requirements
+  question: Name three other types of need-finding methods and give a description for each.
+  answer: 1) Diary Studies - Users complete a diary at specific time. Use strucutured task to seek specific info. <br> 2) Experience Sampling - Remind people at regular interval to record soem information such as emotion, energy level. Use phones to record. <br> 3) Logging Studies - Use software to log user's behaviour.
+
+- module: SCC202
+  topic: Need-Finding and Requirements
+  question: Name two types of requirements.
+  answer: 1) Functional - What must the system do? <br> 2) Non-functional - properties of the system (performance, social acceptibility, security etc.) 
+
+- module: SCC202
+  topic: Need-Finding and Requirements
+  question: What is a Use-case?
+  answer: A use-case describes interaction between people and devices. Shuld desxcribe what people do and the system does.

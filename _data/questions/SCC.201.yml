@@ -165,7 +165,7 @@
 - module: SCC201
   topic: Relational Model
   question: Define Primary Key?
-  answer: a candidate key whose vlaues are used to identify tuples in a relation.
+  answer: a Candidate Key whose values are used to identify tuples in a relation.
 
 - module: SCC201
   topic: Relational Model
