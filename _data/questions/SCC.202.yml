@@ -125,4 +125,4 @@
 - module: SCC202
   topic: Need-Finding and Requirements
   question: What is a Use-case?
-  answer: A use-case describes interaction between people and devices. Shuld desxcribe what people do and the system does.
+  answer: A use-case describes interaction between people and devices. Should describe what people do and the system does.
