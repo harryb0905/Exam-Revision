@@ -178,15 +178,66 @@
   question: What is the purpose of Relational Algebra?
   answer: Language to describe operations in relational DBMS (helps understanding Query execution and optimisation).
 
+# 4. Schemas and Views
 - module: SCC201
-  topic: Relational Algebra
-  question: (Insert Question)
-  answer: (insert answer)
+  topic: Schemas and Views
+  question: Define Schema.
+  answer: A schema is a "roadmap" of data to be eventually stored. Used to sometimes be refferred to as meta-data.
 
 - module: SCC201
-  topic: Relational Algebra
-  question: (insert question)
-  answer: (insert answer)
+  topic: Schemas and Views
+  question: What do Schemas allow the user to do?
+  answer: 1) Declare types of records required for e.g. Person, Company etc. <br> 2) Declare types of relationships among records for e.g. Person works for company, company employs person etc.
+
+- module: SCC201
+  topic: Schemas and Views
+  question: What are the 3 levels of abstraction that allow various users to view physical database?
+  answer: Internal level, conceptual level and external view.
+
+- module: SCC201
+  topic: Schemas and Views
+  question: What is internal level and gve a description.
+  answer: Defines physical implementation of database (storage files that contain actual data records).
+
+- module: SCC201
+  topic: Schemas and Views
+  question: 
+  answer: 
+
+- module: SCC201
+  topic: Schemas and Views
+  question: 
+  answer: 
+
+- module: SCC201
+  topic: Schemas and Views
+  question: 
+  answer:
+
+- module: SCC201
+  topic: Schemas and Views
+  question: 
+  answer:
+
+- module: SCC201
+  topic: Schemas and Views
+  question: 
+  answer: 
+
+- module: SCC201
+  topic: Schemas and Views
+  question: 
+  answer: 
+
+- module: SCC201
+  topic: Schemas and Views
+  question: 
+  answer:
+
+- module: SCC201
+  topic: Schemas and Views
+  question: 
+  answer: 
 
 # 7. Normalisation
 - module: SCC201
