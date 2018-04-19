@@ -211,13 +211,8 @@
 
 - module: SCC201
   topic: Schemas and Views
-  question: Give a description about Externval view?
-  answer: Each view is subset of conceptual level, defined & formatted according to user requirements. 
-
-- module: SCC201
-  topic: Schemas and Views
-  question: DBMS do not apply seperations cleanly - will include details of physical level in conceptual schema. <br> e.g. how many bytes can appear in a string field. <br> Most DBMS support user/external views, external schemas are expressed in same model as conceptual schema.
-  answer:
+  question: Give a description about External View?
+  answer: Each view is subset of conceptual level, defined & formatted according to user requirements. DBMS do not apply seperations cleanly - will include details of physical level in conceptual schema. <br> e.g. how many bytes can appear in a string field. <br> Most DBMS support user/external views, external schemas are expressed in same model as conceptual schema.
 
 - module: SCC201
   topic: Schemas and Views
