@@ -126,3 +126,64 @@
   topic: Need-Finding and Requirements
   question: What is a Use-case?
   answer: A use-case describes interaction between people and devices. Should describe what people do and the system does.
+
+# 4. Interaction Types and Metaphors
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: Define Interaction Type.
+  answer: What the user is doing when interacting with a system.
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: Define Interface Type.
+  answer: The kind of interface used to support the mode e.g. speech, menu-based, gesture.
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: What are the four-key conceptual models and define them?
+  answer: 1) Instructing <br> 2) Conversing <br> 3) Manipulating <br> 4) Exploring 
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: Explain Instructing in detail.
+  answer: Issuing commands and selecting options such as save a file, print a file. Underlying diveristy of devices and systems e.g. word processors, DVD players. <br> Many ways to issue instructions - buttons, menus, command-line. 
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: What are the two advantages of Instructing?
+  answer: 1) Quick and efficient interaction. <br> 2) Good for repetitive actions performed on multiple objects.
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: Explain Conversing in detail.
+  answer: Interacting with a system as if having a conversation e.g. voice recognition menu-driven systems to complex 'natural language' dialogs and telephone help and advice systems.
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: Give two advantages and two disadvantages of Conversing.
+  answer: Advantages <br> 1) Allows users interact with system in good manner. <br> 2) Makes people feel comfortable and ease. <br> Disadvantages <br> 1) Misunderstandings can arise when system does not know wha tuser said. <br> 2) Phone menus user musy wait for all options before selection on call.
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: Explain Manipulating in detail.
+  answer: Interacting with objects in a virtual or physical space by manipulating them (opening, holding, dragging, etc.) Involve actions using Wii control or Kinect air gestures.
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: What is Direct Manipulation? 
+  answer: Digital objects interacted with in ways that are analogous to how physical objects are interacted with in the physical world. e.g. dragging a file from one part to another.
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: What are Shneiderman's three core principles?
+  answer: 1) Continous representation of objects and actions of interest. <br> 2) Rapid, reversible and incremental actions with immediate feedback. <br> 3) Physical actions and button pressing instead of issuing commands.
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: What are three advantages and three disadvantages of manipulation?
+  answer: Advatanges <br> 1) Novices can learn functionality rapidly. <br> 2) Prevent need for error messages. <br> 3) Experience users can work on wide range of tasks. <br> Disadvantages <br> 1) Not all tasks can be described by objects and actions. <br> 2) Can use large amounts of screen real estate. <br> 3) Moving mouse arounf the screen can be slower than keys.
+
+- module: SCC202
+  topic: Interaction Types and Metaphors
+  question: Explain Exploring in detail.
+  answer: Moving through a virtual environment or a physical space. Controls - keyboard, mouse, joystick, game controller. Pupose - entertainment, navigation, visualization. 
