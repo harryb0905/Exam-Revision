@@ -196,48 +196,53 @@
 
 - module: SCC201
   topic: Schemas and Views
-  question: What is internal level and gve a description.
-  answer: Defines physical implementation of database (storage files that contain actual data records).
+  question: Define internal level.
+  answer: Defines physical implementation of database (storage files that contain actual data records). <br> A database as a collection of logical records called "internal" or "stored" records. <br> internal names of fields and no. of byes they occupy.  
 
 - module: SCC201
   topic: Schemas and Views
-  question: 
-  answer: 
+  question: Define Conceptual Level.
+  answer: Entire information resource at an abstract level for community of users. <br> Hideas details of physical storage structures, concentrating on - <br> Entities represented in the database <br> Relationships between those entities <br> Data types.
 
 - module: SCC201
   topic: Schemas and Views
-  question: 
-  answer: 
+  question: Define External view?
+  answer: Describes database view of one group of database users. Includes a number of external schemas or user views.
 
 - module: SCC201
   topic: Schemas and Views
-  question: 
+  question: Give a description about Externval view?
+  answer: Each view is subset of conceptual level, defined & formatted according to user requirements. 
+
+- module: SCC201
+  topic: Schemas and Views
+  question: DBMS do not apply seperations cleanly - will include details of physical level in conceptual schema. <br> e.g. how many bytes can appear in a string field. <br> Most DBMS support user/external views, external schemas are expressed in same model as conceptual schema.
   answer:
 
 - module: SCC201
   topic: Schemas and Views
-  question: 
-  answer:
+  question: What is physical independence?
+  answer: Capacity to change internal schema without having to change conceptual or external schema. 
 
 - module: SCC201
   topic: Schemas and Views
-  question: 
-  answer: 
+  question: Following from previous question, why do you need to do changes to internal schema?
+  answer: 1) Physical file organisation. <br> 2) Introduction, removal or modification of access paths = improve performance of retrieval on update
 
 - module: SCC201
   topic: Schemas and Views
-  question: 
-  answer: 
+  question: What are the overheads of three schema architecture?
+  answer: 1) Mapping between three schema levels - request has to be mapped at each level for processing. <br> 2) Mappings time-consumiing and resource intensive.
 
 - module: SCC201
   topic: Schemas and Views
-  question: 
-  answer:
+  question: In External Views there are two types. Name them and give a description of each.
+  answer: 1) Base Relation - Named relation corresponding to entity in conceptual schema, whose tuples are physically stored in database. <br> 2) View - Dynamic result of one or more relational operations operating on base relations to produce another relation. 
 
 - module: SCC201
   topic: Schemas and Views
-  question: 
-  answer: 
+  question: What is Logical Data Independence?
+  answer: Capacity to change conceptual schema without having to change external schemas or application program. Works when change is additive. e.g. adding an attribute to a relation. <br> More difficult to achieve when removing attribute from a relation. View definitions and mapping to conceptual schema needs to be changed.
 
 # 7. Normalisation
 - module: SCC201
