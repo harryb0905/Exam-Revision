@@ -182,31 +182,31 @@
 - module: SCC201
   topic: Schemas and Views
   question: Define Schema.
-  answer: A schema is a "roadmap" of data to be eventually stored. Used to sometimes be refferred to as meta-data.
+  answer: A schema is a "roadmap" of data to be eventually stored (referred to as meta-data).
 
 - module: SCC201
   topic: Schemas and Views
   question: What do Schemas allow the user to do?
-  answer: 1) Declare types of records required for e.g. Person, Company etc. <br> 2) Declare types of relationships among records for e.g. Person works for company, company employs person etc.
+  answer: 1) Declare types of records required for (Person, Company etc.)<br>2) Declare types of relationships among records for (Person works for company, company employs person etc).
 
 - module: SCC201
   topic: Schemas and Views
   question: What are the 3 levels of abstraction that allow various users to view physical database?
-  answer: Internal level, conceptual level and external view.
+  answer: Internal level<br>conceptual level<br>External view.
 
 - module: SCC201
   topic: Schemas and Views
-  question: Define internal level.
-  answer: Defines physical implementation of database (storage files that contain actual data records). <br> A database as a collection of logical records called "internal" or "stored" records. <br> internal names of fields and no. of byes they occupy.  
+  question: What is the Internal level?
+  answer: Defines physical implementation of database (storage files that contain actual data records).<br>Internal names of fields and no. of bytes they occupy.  
 
 - module: SCC201
   topic: Schemas and Views
-  question: Define Conceptual Level.
-  answer: Entire information resource at an abstract level for community of users. <br> Hideas details of physical storage structures, concentrating on - <br> Entities represented in the database <br> Relationships between those entities <br> Data types.
+  question: What is the Conceptual Level?
+  answer: Entire information resource at an abstract level for community of users.<br>Hides details of physical storage structures, concentrating on; - <br> Entities represented in the database <br> Relationships between those entities <br> Data types.
 
 - module: SCC201
   topic: Schemas and Views
-  question: Define External view?
+  question: What is the External view?
   answer: Describes database view of one group of database users. Includes a number of external schemas or user views.
 
 - module: SCC201
